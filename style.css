@@ -1,0 +1,52 @@
+body {
+	font-family: sans-serif;
+	}
+	
+	#wrapper {
+	 width: 960px;
+	 margin: 15px auto;
+	}
+
+	#map {
+	 height: 450px;
+	 margin: 15px auto;
+	}
+
+	#circle	{
+	 color: #228B22;
+	}
+	
+	.legend, .temporal-legend {
+	padding: 7px 11px;
+	font: 16px/18px Arial;
+	background: gray;
+	background: rgba(112,128,144, 0.82);
+	box-shadow: 0 0 14px rgba(143,127,111, 0.18);
+	border-radius: 6px
+    }
+	
+	#legendTitle {
+	 text-align: center;
+	 margin-bottom: 15px;
+	 font-variant: small-caps;
+	}
+	
+	.symbolsContainer {
+	 float: right;
+	 margin-right: 45px;
+	}
+	
+	.legendCircle {
+	 border-radius: 45%;
+	 border: 1px solid #008000;
+	 background: rgba(34,139,34, 0.5);
+		display: inline-block;
+	}
+	.legendValue {
+	 position: absolute;
+	 right: 8px;
+	}
+	
+
+	
+	
